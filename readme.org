@@ -1,0 +1,30 @@
+* .nyxt.d config
+
+My .nyxt.d config file. Place under =$HOME/.config/nyxt/=
+
+** Project structure
+
+#+begin_verse
+.
+├── init.lisp
+├── lib
+│   ├── init-common.lisp
+│   ├── init-dark-mode.lisp
+│   ├── init-emacs-color-scheme.lisp
+│   ├── init-emacs.lisp
+│   ├── init-freestance.lisp
+│   ├── init-keybindings.lisp
+│   ├── init-navigation.lisp
+│   ├── init-noscript.lisp
+│   ├── init-password.lisp
+│   ├── init-reader.lisp
+│   ├── init-reddit.lisp
+│   ├── init-scholar-notations.lisp
+│   ├── init-search-engines.lisp
+│   └── init-youtube.lisp
+├── lib.lisp
+├── LICENSE
+└── readme.org
+1 directory, 18 files
+#+end_verse
+
