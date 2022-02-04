@@ -98,7 +98,6 @@ id to THEN."
                  (member (gsc-id annotation)
                          citations-on-page
                          :test #'equal))
-        (print (list "adding annotation" (gsc-id annotation) (data annotation)))
         (annotate-scholar-entries-by-id (gsc-id annotation) (data annotation))
         ))))
 
