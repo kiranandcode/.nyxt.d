@@ -15,8 +15,9 @@
  'init-emacs
  'init-common
  'init-password
- 'init-emacs-color-scheme
- (:after :nx-search-engines 'init-search-engines)
- (:after :nx-freestance-handler 'init-freestance)
+ 'init-scholar-annotations
+ ;; 'init-emacs-color-scheme
+ ;; (:after :nx-search-engines 'init-search-engines)
+ ;; (:after :nx-freestance-handler 'init-freestance)
  ;; (:after :nx-reader 'init-reader)
  )
