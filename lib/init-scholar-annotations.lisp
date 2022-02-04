@@ -67,7 +67,7 @@ id to THEN."
                                  ,@body)))
       :selector ".gs_scl.gs_or > .gs_ri > h3 a")))
 
-(define-command add-scholar-annotation (&optional (buffer (current-buffer)))
+(define-command-global add-scholar-annotation (&optional (buffer (current-buffer)))
   "Create a annotation for a Google Scholar entry in BUFFER."
   (with-current-buffer buffer
     (with-user-provided-scholar-entry id
