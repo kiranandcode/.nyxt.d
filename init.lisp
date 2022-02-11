@@ -16,6 +16,8 @@
  'init-common
  'init-password
  'init-scholar-annotations
+ 'init-scholar-bibtex
+ 'init-scholar-organisation
  ;; 'init-emacs-color-scheme
  ;; (:after :nx-search-engines 'init-search-engines)
  ;; (:after :nx-freestance-handler 'init-freestance)
