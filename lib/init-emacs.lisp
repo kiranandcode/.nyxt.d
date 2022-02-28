@@ -6,7 +6,7 @@
                         (write-to-string
                          `(progn ,@s-exps) :case :downcase)
                         "")))
-    (log:debug "Sending to Emacs: ~s" s-exps-string)
+    (log:info "Sending to Emacs: ~s" s-exps-string)
     (ignore-errors (uiop:run-program
-                    (list "emacsclient.emacs" "--eval" s-exps-string)))))
+                    (list "emacsclient" "--eval" s-exps-string)))))
 
